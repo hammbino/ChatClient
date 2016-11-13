@@ -77,7 +77,7 @@ public class ChatClient {
     public static void main(String[] args) throws IOException {
         EventQueue.invokeLater(() -> {
             ChatClient client = new ChatClient();
-            client.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            client.frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
             client.frame.setLocationByPlatform(true);
             client.frame.setVisible(true);
             try {
